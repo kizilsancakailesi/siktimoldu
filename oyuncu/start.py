@@ -11,7 +11,7 @@ async def start(client, message):
                 InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url=f"https://{SOURCE_CODE}"),
+                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url=f"https://t.me/kizilsancakbilgi"),
                 InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
@@ -68,12 +68,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="devs":
         buttons = [
             [
-                InlineKeyboardButton("Lᴏᴜɪꜱ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Eʀʀᴏʀ", url="https://t.me/ProErrorXD"),
+                InlineKeyboardButton("Lᴏᴜɪꜱ", url="https://t.me/kizilsancakbilgi"),
+                InlineKeyboardButton("Eʀʀᴏʀ", url="https://t.me/kizilsancak"),
             ],
             [
-                InlineKeyboardButton("Bʟᴀᴢᴇ", url="https://t.me/piroXpower"),
-                InlineKeyboardButton("Pʀɪɴᴄᴇ", url="https://t.me/DEVILDAD_PRINCE"),
+                InlineKeyboardButton("Bʟᴀᴢᴇ", url="https://t.me/kizilsancakbilgi"),
+                InlineKeyboardButton("Pʀɪɴᴄᴇ", url="https://t.me/kizilsancak"),
             ],
             [
                 InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start"),
@@ -94,7 +94,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url=f"https://{SOURCE_CODE}"),
+                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url=f"https://kizilsancakbilgi"),
                 InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
